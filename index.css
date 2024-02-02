@@ -8,7 +8,7 @@ html, body {
 main {
      display: flex;
      flex-direction: column;
-     max-width: 360px;
+     max-width: 380px;
      margin: 30px auto;
      gap: 10px;
 }
@@ -34,6 +34,7 @@ h2 {
 }
 #textarea-input {
     width: 97%;
+    max-width: 380px;
    /* max-width: 345px; */
     border-radius: 0.5rem;
     background: #444059;
