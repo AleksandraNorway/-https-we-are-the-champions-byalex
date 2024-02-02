@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: #f1f1f1;
+    user-select: none;
+}
+main {
+     display: flex;
+     flex-direction: column;
+     max-width: 320px;
+     margin: 30px auto;
+     gap: 10px;
+}
+img {
+    height: 5.625rem;
+    width: 5.625rem;
+    align-self: center;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;  
+}
+h2 {
+    font-family: "Josefin Sans";
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+#textarea-input {
+    width: 100%;
+    max-width: 305px;
+    border-radius: 0.5rem;
+    background: #444059;
+    border: none;
+    color: #8F8F8F;
+    font-family: 'Inter', sans-serif;
+   font-size: 0.9375rem;
+   font-style: normal;
+   font-weight: 400;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    text-align: left;
+     
+ }
+ input[type="text"] {
+    border: none; 
+    background: #444059;
+    color: #8F8F8F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    width: calc(45.8% - 9px);/* Divide by 2 and consider gap */
+    border-radius: 0.3rem;
+    text-align: center;
+    padding: 10px 10px;
+ 
+ }
+ @media screen and (max-width: 330px) {
+    /* Styles to apply for screens with a width of 320px or larger */
+    input[type="text"] {
+      /* Adjust your styles for screens at least 320px wide */
+      /* For example: */
+      width: calc(45% - 9px);
+    }
+    #textarea-input {
+      max-width: 100%; 
+      }
+      
+  }
+ .container-two {
+    min-width: 300px;
+
+  /* Adjusted to space between */
+    gap: 9px;
+    
+}
+
+button {
+    background-color: #afc9e7;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 14px 28px;
+    color: #04131C;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #28A9F1;
+    cursor: pointer
+}
+.likes {
+    background: none;
+    padding: 10px;
+    border-radius: 0.4rem;
+}
+
+.conteiner-post {
+    background-color: #FFF;
+    border-radius: 0.3rem;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+.names {
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;   
+}
+.text-applied {
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.conteiner-tre {
+  display: flex;
+  justify-content: space-between; /* Adjust this to your desired spacing */
+ 
+}
+#alert-area {
+    color: rgba(255, 0, 60, 0.913);
+    font-family: Inter;
+    letter-spacing: 1px;
+}
