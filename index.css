@@ -144,3 +144,16 @@ button:hover {
     padding-top: 1px;
     margin-top: 0px;
 }
+
+footer {
+    font-family: Inter; 
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    color: #f1f1f1d7;
+
+}
+a {
+    color: #f1f1f1;
+}
