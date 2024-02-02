@@ -10,7 +10,7 @@ main {
      flex-direction: column;
      max-width: 380px;
      margin: 30px auto;
-     gap: 10px;
+     gap: 15px;
 }
 img {
     height: 5.625rem;
@@ -30,10 +30,11 @@ h2 {
     font-size: 1.25rem;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 0px;
     
 }
 #textarea-input {
-    width: 96.5%;
+    width: 96.2%;
     max-width: 380px;
    /* max-width: 345px; */
     border-radius: 0.5rem;
@@ -63,6 +64,7 @@ h2 {
     padding: 10px 10px;
  
  }
+
  @media screen and (max-width: 330px) {
     /* Styles to apply for screens with a width of 320px or larger */
     input[type="text"] {
@@ -133,4 +135,9 @@ button:hover {
     color: rgba(255, 0, 60, 0.913);
     font-family: Inter;
     letter-spacing: 1px;
+    margin-top: 2px;
+}
+#conteiner-post {
+    padding-top: 1px;
+    margin-top: 0px;
 }
