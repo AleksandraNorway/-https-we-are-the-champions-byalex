@@ -4,6 +4,7 @@ html, body {
     background: #1B1924;
     color: #f1f1f1;
     user-select: none;
+    user-zoom: none;
 }
 main {
      display: flex;
